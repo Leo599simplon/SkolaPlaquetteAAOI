@@ -1,0 +1,423 @@
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+
+
+
+.mediaDivCollapse
+{
+  display: none;
+}
+
+.logoIdeas
+{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.logoMedia
+{
+  width: 40px;
+  color: white;
+  margin-right: 10px; 
+}
+
+.logoFacebook
+{
+  width: 10%;
+  color: #dc3545;
+}
+
+/* 
+.divLogo
+{
+    height: 110px;
+    width: 110px;
+    background-color: white;
+    margin-right: -5px;
+}  */
+
+/* .Menu
+{
+  margin-right: 340px;
+} */
+
+/* .formationDiv::before
+{
+  content: "";
+  position: absolute;
+  top: 700px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  opacity: .5; 
+  background-image: url("/ressources/linkedin-sales-navigator-jJFrkJP_-RA-unsplash.jpg") ;
+  background-repeat: no-repeat ;
+  background-size: 2642px;
+  background-attachment: fixed;
+  
+} */
+
+/* .colorDiv::before
+{
+  content: "";
+  background-color: black;
+  opacity: 0.9;
+  position: absolute;
+  z-index: -1;
+  top: 640px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-attachment: fixed;
+  
+} */
+
+
+.imgPicto
+{
+  width: 60%;
+  height: 60%;
+  object-fit: contain;
+}
+
+/* .searchBar
+{
+  margin-right: 108px;
+} */
+
+ .nav-item
+{
+  font-size: larger;
+}
+
+
+.titreActu {
+  background-color: red;
+  width: 160px;
+  height: 60px;
+  margin-top: -50px;
+}
+
+.paragrapheActu {
+  color: black;
+}
+
+/* .mediaLogo {
+  color: white;
+  font-size: 2rem;
+  width: 3rem;
+  height: 3rem;
+  
+} */
+
+/* nous soutenir */
+
+.titreProjet {
+  padding-bottom: 6rem;
+  text-transform: uppercase;
+}
+
+.cardDiv
+{
+  padding-left: 100px;
+}
+.cardImg {
+  margin-left: 30px;
+  margin-top: -30px;
+}
+
+
+.cardDivImg {
+  width: 450px;
+
+}
+
+.image-caption {
+  width: 100%;
+  height: 71%;
+  margin-left: 30px;
+  margin-top: -30px;
+  background: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  opacity: 0;
+  transition: all 300ms ease-in-out;
+  -webkit-transition: all 300ms ease-in-out;
+  -moz-transition: all 300ms ease-in-out;
+  -o-transition: all 300ms ease-in-out;
+  -ms-transition: all 300ms ease-in-out;
+  color: white;
+}
+
+.card:hover .image-caption {
+  opacity: 1;
+}
+/* start media max 768*/
+@media (max-width: 768px) {
+
+  .titreLycee
+{
+  display: none;
+
+}
+
+  .mediaDivCollapse
+  {
+    display: initial;
+  }
+
+  .mediaDiv
+  {
+    display: none;
+  }
+
+
+  .Menu
+  {
+    margin-right: 0px;
+  }
+.blackDiv
+{
+    display: none;
+}
+
+
+
+.blocCarousel
+{
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+
+.searchMediaDiv
+{
+  /* flex-direction: column !important; */
+  align-items: start !important;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+
+}
+
+/* .buttonNavbarToggler */
+/* {
+  margin-top: -90px;
+} */
+
+iframe
+{
+  width: 350px;
+  
+}
+
+
+.logoMedia
+{
+  width: 10%;
+  color: white;
+  margin-right: 10px; 
+  margin-bottom: 10px;
+}
+
+
+
+  .cardImg {
+    margin-left: 0px;
+    margin-top: 0px;
+  }
+
+  .cardDiv {
+    margin-left: 0rem;
+    padding-left: 0px;
+  }
+
+  .cardDivImg {
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+/* 
+  .image-caption {
+    margin-left: 0px;
+    margin-top: 0px;
+    background: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    opacity: 0;
+    transition: all 300ms ease-in-out;
+    -webkit-transition: all 300ms ease-in-out;
+    -moz-transition: all 300ms ease-in-out;
+    -o-transition: all 300ms ease-in-out;
+    -ms-transition: all 300ms ease-in-out;
+    color: white;
+  }
+
+  .card:hover .image-caption {
+    opacity: 1;
+  } */
+
+.imgPicto
+{
+  width: 40%;
+  height: 40%;
+  object-fit: contain;
+}
+
+ }
+
+/* fin media 400 */
+
+
+
+/* debut media ipad portrait */
+@media (min-width: 401px) and (max-width: 1024px) {
+  
+    .cardImg {
+      margin-left: 0px;
+      margin-top: 0px;
+    }
+  
+    .cardDiv {
+      margin-left: 0rem;
+      padding-left: 0px;
+    }
+    .cardDivImg {
+      width: 600px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+/*   
+    .image-caption {
+      margin-left: 0px;
+      margin-top: 0px;
+      background: rgba(0, 0, 0, 0.7);
+      position: absolute;
+      opacity: 0;
+      transition: all 300ms ease-in-out;
+      -webkit-transition: all 300ms ease-in-out;
+      -moz-transition: all 300ms ease-in-out;
+      -o-transition: all 300ms ease-in-out;
+      -ms-transition: all 300ms ease-in-out;
+      color: white;
+    }
+  
+    .card:hover .image-caption {
+      opacity: 1;
+    } */
+
+  .imgPicto
+  {
+    width: 40%;
+    height: 40%;
+    object-fit: contain;
+  }
+  
+}
+  
+  /* fin media 400 */
+
+
+
+
+.blackDiv
+
+{
+    height: 33px;
+    background-color: black;
+}
+
+.blocDroit
+{
+  margin-bottom: 4rem;
+  background-color: #dc3545;
+}
+
+.skolaFacebook
+{
+  color:#dc3545;
+  font-size: 4rem;
+  width: 3rem;
+  height: 3rem;
+}
+
+.titreCardSkola 
+{
+  font-weight: 600;
+}
+
+.texteCardSkola
+{
+  font-size: larger;
+}
+
+.titreLycee
+{
+  color:white;
+  font-size: x-large;
+
+}
+
+
+
+@media screen and (min-width: 900px) and (max-width:1290px)
+
+{
+  .cardImg {
+    margin-left: 0px;
+    margin-top: 0px;
+  }
+
+  .cardDiv {
+    margin-left: 0rem;
+    padding-left: 0px;
+  }
+
+  .cardDivImg {
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .image-caption {
+    width: 100%;
+    height: 52%;
+    margin-left: 0px;
+    margin-top: 0px;
+    background: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    opacity: 0;
+    transition: all 300ms ease-in-out;
+    -webkit-transition: all 300ms ease-in-out;
+    -moz-transition: all 300ms ease-in-out;
+    -o-transition: all 300ms ease-in-out;
+    -ms-transition: all 300ms ease-in-out;
+    color: white;
+  }
+
+  h3
+  {
+    font-size: large;
+  }
+
+  iframe
+  {
+    width: 500px;
+  }
+
+
+}
+
+.blocCarousel
+{
+padding-top: 40px !important;
+}
