@@ -180,7 +180,7 @@
 
   .mediaDiv
   {
-    display: none;
+    display: none !important;
   }
 
 
